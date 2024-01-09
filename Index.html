@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Training Website</title>
+    <style>
+        /* Your existing styles */
+
+        .cta-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .email-optin, .phone-submit, .survey {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Your existing content -->
+
+    <div class="cta-section">
+        <h2>Unlock Your Potential!</h2>
+        <p>Secure your spot for personalized 1-2 hour training sessions. Achieve your dreams and learn from an Olympic Semi Finalist!</p>
+        <a href="#contact-form" class="cta-button">Get Started</a>
+    </div>
+
+    <section id="contact-form">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <!-- Add your email where it says "your-email@example.com" -->
+            <input type="email" name="email" placeholder="Your Email" class="email-optin" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" class="phone-submit" required>
+            <textarea name="message" placeholder="Tell me about your goals" class="survey" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
